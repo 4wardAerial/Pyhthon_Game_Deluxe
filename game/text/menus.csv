@@ -1,4 +1,7 @@
 Key,Translation
 
-"EN.file_not_found.error","The save file data was recovered sucessfully."
-"BR.file_not_found.error","Os dados de salvamento do arquivo foram recuperados com sucesso."
+"EN.save_file_not_found.error","The save file could not be found."
+"EN.save_data_not_found.error","The save data could not be recovered."
+
+"BR.save_file_not_found.error","O arquivo de salvamento não pode ser encontrado."
+"BR.save_data_not_found.error","Os dados de salvamento não puderam ser recuperados."

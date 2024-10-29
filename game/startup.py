@@ -28,9 +28,5 @@ def save_file_handle():
         save_file = open(PATH_TO_SAVE, mode='w')
 
     else:
-        print(menus_dialogue[LANGUAGE + "file_not_found.error"])
-
-
-
-    pass
+        print(menus_dialogue[LANGUAGE + "save_file_not_found.error"])
 
