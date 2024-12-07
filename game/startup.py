@@ -1,12 +1,13 @@
+from pathlib import Path
 import os.path
 import csv
 
-LANGUAGE = 'EN.'
-PATH_TO_MENUS = './game/text/menus.csv'
-PATH_TO_SAVE = './save.txt'
+LANGUAGE = 'BR.'
+PATH_TO_MENUS = Path('game/text/menus.csv')
+PATH_TO_SAVE = Path('save/save.txt')
 
 # Opens CSV file to get the menu dialogues
-with open(PATH_TO_MENUS, mode='r') as csv_menus:
+with open(PATH_TO_MENUS, mode='r', encoding='utf-8') as csv_menus:
     menus_dialogue = dict(filter(None, csv.reader(csv_menus)))
 
 def menus_csv_handle():
